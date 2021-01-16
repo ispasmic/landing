@@ -1,0 +1,30 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  position: relative;
+  background-color: white;
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  padding-bottom: 40px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.card-pic {
+  width: 200px;
+  height: 160px;
+  background-size: cover;
+}
+
+.card h3 {
+  font-size: 16px;
+  padding: 0px 16px;
+}
+
+.card p {
+  font-size: 12px;
+  padding: 0px 16px;
+}

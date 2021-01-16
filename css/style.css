@@ -1,0 +1,98 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Components */
+@import url('components/button.css');
+@import url('components/card.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  background-color: #ECF9F1;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Custom design below! */
+.container {
+  width: 700px;
+  margin: auto;
+}
+.banner {
+  background-image: url(../images/doggoheader.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  padding: 200px 100px;
+  position: relative;
+}
+
+.banner h1 {
+  color: white;
+  opacity: 0.9;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 200px;
+  left: 150px;
+}
+
+.banner h2 {
+  color: white;
+  opacity: 0.8;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 160px;
+  left: 150px;
+}
+
+.banner a {
+  position: absolute;
+  bottom: 80px;
+  left: 150px;
+}
+
+.main {
+  padding: 100px;
+}
+
+.main h2 {
+  text-align: center;
+}
+
+.footer {
+  background-color: white;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 10px;
+}
+
+.footer ul {
+  padding-left: 0px;
+}
+
+.footer li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+}
+
+.footer a {
+  font-size: 24px;
+  color:  rgba(10,10,10,0.8);
+}
+
+.footer p {
+  color: rgba(10,10,10,0.8);
+}
+
